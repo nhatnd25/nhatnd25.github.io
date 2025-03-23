@@ -1,11 +1,7 @@
-param (
-    [string]$Token
-)
 Write-Output "Token: $Token"
 
 $Token1 = Read-Host "Please enter your Token1:"
 Write-Host "Token1: $Token1"
-
 
 $computerName = ""
 try {
